@@ -38,6 +38,10 @@ results/
 *.xlsx
 *.png
 
+# Exception: Allow example outputs
+!examples/sample_outputs/*.xlsx
+!examples/sample_outputs/*.png
+
 # OS
 .DS_Store
 Thumbs.db
